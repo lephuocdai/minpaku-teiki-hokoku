@@ -1,0 +1,37 @@
+{
+  "name": "minpaku-teiki-hokoku",
+  "owner": {
+    "name": "lephuocdai"
+  },
+  "metadata": {
+    "description": "民泊（住宅宿泊事業）の隔月定期報告を準備するAgent Skill / Agent Skill that prepares the bi-monthly minpaku teiki-hokoku report (data prep only — the operator files)",
+    "version": "0.1.0"
+  },
+  "_note": "Install via Claude Code: /plugin marketplace add lephuocdai/minpaku-teiki-hokoku. Installation into Claude Cowork via 'Add marketplace' is currently being verified (動作確認中) — if it does not work, use the GitHub Releases ZIP upload path described in README.md (Customize > Skills > Upload a skill).",
+  "plugins": [
+    {
+      "name": "minpaku-teiki-hokoku",
+      "description": "住宅宿泊事業（民泊）の隔月定期報告（住宅宿泊事業法14条）の集計と提出準備。予約データの正規化、国籍分類（出所つき）、確認用Excel、ポータル一括アップロードCSV、画面入力ガイドを生成します。提出は事業者本人が行います。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./minpaku-teiki-hokoku"
+      ],
+      "author": {
+        "name": "lephuocdai"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/lephuocdai/minpaku-teiki-hokoku",
+      "repository": "https://github.com/lephuocdai/minpaku-teiki-hokoku",
+      "keywords": [
+        "minpaku",
+        "民泊",
+        "定期報告",
+        "住宅宿泊事業",
+        "compliance",
+        "japan"
+      ],
+      "category": "compliance"
+    }
+  ]
+}

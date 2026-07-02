@@ -1,0 +1,32 @@
+# --- OS junk ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Operator data: never commit real configs or working data ---
+# Real minpaku-config.yaml files contain 届出番号 and listing names.
+# Only the synthetic examples under examples/ belong in this repo.
+/*config.yaml
+/nationality-overrides.csv
+/kujo-log.csv
+
+# Working directories created while running the skill locally
+work/
+
+# Regenerated demo output from running the engine on examples/
+# (the curated snapshot lives in examples/sample-output/ and stays tracked)
+examples/*/output/
+
+# Real reporting data must never be committed (period work folders, passports, env)
+/[0-9][0-9][0-9][0-9]-[0-9][0-9]_[0-9][0-9][0-9][0-9]-[0-9][0-9]/
+passports/
+.env
+.env.*

@@ -1,0 +1,358 @@
+{
+  "generated_at": "2026-07-03T07:26:18",
+  "period": {
+    "key": "2026-04_2026-05",
+    "start": "2026-04-01",
+    "end": "2026-05-31",
+    "fiscal_year": 2026,
+    "label_portal": "2026年度04月～05月",
+    "label_meibo": "2026_4-5",
+    "is_standard": true
+  },
+  "operator_name": "民泊 太郎",
+  "csv_variant": "sousa-tejunsho",
+  "language": "ja",
+  "input_stats": {
+    "rows": 8,
+    "cancelled": 1,
+    "out_of_period": 0,
+    "bad": 0,
+    "unknown_status": 1,
+    "unknown_property": 0
+  },
+  "properties": {
+    "M131234567": {
+      "todokede": "M131234567",
+      "todokede_display": "第M131234567号",
+      "name": "浅草の家",
+      "municipality": "東京都台東区",
+      "kyoto": false,
+      "juri_date": "2023-06-15",
+      "zero_report": false,
+      "reservation_count": 7,
+      "shukuhaku_nissu": 12,
+      "shukuhakusha_su": 16,
+      "nobe_ninzu": 41,
+      "nationality_counts": {
+        "日本": 4,
+        "韓国": 3,
+        "台湾": 4,
+        "香港": 0,
+        "中国": 0,
+        "タイ": 0,
+        "シンガポール": 0,
+        "マレーシア": 0,
+        "インドネシア": 0,
+        "フィリピン": 0,
+        "ベトナム": 0,
+        "インド": 0,
+        "英国": 2,
+        "ドイツ": 0,
+        "フランス": 1,
+        "イタリア": 0,
+        "スペイン": 0,
+        "ロシア": 0,
+        "米国": 2,
+        "カナダ": 0,
+        "オーストラリア": 0,
+        "その他": 0
+      },
+      "unresolved_count": 0,
+      "occupied_dates": [
+        "2026-04-01",
+        "2026-04-10",
+        "2026-04-11",
+        "2026-04-12",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-04-22",
+        "2026-04-23",
+        "2026-05-10",
+        "2026-05-11",
+        "2026-05-30",
+        "2026-05-31"
+      ],
+      "reservations": [
+        {
+          "code": "HMABCD1234",
+          "guest_name": "John Miller",
+          "listing_name": "Asakusa Demo Stay 2BR",
+          "source": "airbnb",
+          "checkin": "2026-03-30",
+          "checkout": "2026-04-02",
+          "clip_start": "2026-04-01",
+          "clip_end": "2026-04-01",
+          "clipped_nights": 1,
+          "adults": 2,
+          "children": 0,
+          "infants": 0,
+          "guests": 2,
+          "person_nights": 2,
+          "status": "confirmed",
+          "nationalities": [
+            "米国",
+            "米国"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        },
+        {
+          "code": "HMEFGH5678",
+          "guest_name": "佐藤 花子",
+          "listing_name": "Asakusa Demo Stay 2BR",
+          "source": "airbnb",
+          "checkin": "2026-04-10",
+          "checkout": "2026-04-13",
+          "clip_start": "2026-04-10",
+          "clip_end": "2026-04-12",
+          "clipped_nights": 3,
+          "adults": 2,
+          "children": 1,
+          "infants": 1,
+          "guests": 4,
+          "person_nights": 12,
+          "status": "confirmed",
+          "nationalities": [
+            "日本",
+            "日本",
+            "日本",
+            "日本"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv",
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        },
+        {
+          "code": "4123456789",
+          "guest_name": "Chen Wei-Ling",
+          "listing_name": "Asakusa Demo Stay 2BR",
+          "source": "booking",
+          "checkin": "2026-04-20",
+          "checkout": "2026-04-23",
+          "clip_start": "2026-04-20",
+          "clip_end": "2026-04-22",
+          "clipped_nights": 3,
+          "adults": 2,
+          "children": 0,
+          "infants": 0,
+          "guests": 2,
+          "person_nights": 6,
+          "status": "confirmed",
+          "nationalities": [
+            "台湾",
+            "台湾"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        },
+        {
+          "code": "HMMNOP3456",
+          "guest_name": "Chen Wei-Ling",
+          "listing_name": "Asakusa Demo Stay 2BR",
+          "source": "airbnb",
+          "checkin": "2026-04-20",
+          "checkout": "2026-04-23",
+          "clip_start": "2026-04-20",
+          "clip_end": "2026-04-22",
+          "clipped_nights": 3,
+          "adults": 2,
+          "children": 0,
+          "infants": 0,
+          "guests": 2,
+          "person_nights": 6,
+          "status": "confirmed",
+          "nationalities": [
+            "台湾",
+            "台湾"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        },
+        {
+          "code": "HMIJKL9012",
+          "guest_name": "Kim Minjun",
+          "listing_name": "Asakusa Demo Stay Annex",
+          "source": "airbnb",
+          "checkin": "2026-04-21",
+          "checkout": "2026-04-24",
+          "clip_start": "2026-04-21",
+          "clip_end": "2026-04-23",
+          "clipped_nights": 3,
+          "adults": 3,
+          "children": 0,
+          "infants": 0,
+          "guests": 3,
+          "person_nights": 9,
+          "status": "confirmed",
+          "nationalities": [
+            "韓国",
+            "韓国",
+            "韓国"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        },
+        {
+          "code": "HMUVWX2345",
+          "guest_name": "Louis Bernard",
+          "listing_name": "Asakusa Demo Stay Annex",
+          "source": "airbnb",
+          "checkin": "2026-05-10",
+          "checkout": "2026-05-12",
+          "clip_start": "2026-05-10",
+          "clip_end": "2026-05-11",
+          "clipped_nights": 2,
+          "adults": 1,
+          "children": 0,
+          "infants": 0,
+          "guests": 1,
+          "person_nights": 2,
+          "status": "unknown",
+          "nationalities": [
+            "フランス"
+          ],
+          "nat_sources": [
+            "csv"
+          ],
+          "issues": [
+            "ステータス不明(計上済み — 実在予約か確認)"
+          ]
+        },
+        {
+          "code": "HMYZAB6789",
+          "guest_name": "Emma Clarke",
+          "listing_name": "Asakusa Demo Stay 2BR",
+          "source": "airbnb",
+          "checkin": "2026-05-30",
+          "checkout": "2026-06-02",
+          "clip_start": "2026-05-30",
+          "clip_end": "2026-05-31",
+          "clipped_nights": 2,
+          "adults": 2,
+          "children": 0,
+          "infants": 0,
+          "guests": 2,
+          "person_nights": 4,
+          "status": "confirmed",
+          "nationalities": [
+            "英国",
+            "英国"
+          ],
+          "nat_sources": [
+            "csv",
+            "csv"
+          ],
+          "issues": []
+        }
+      ],
+      "review_items": [
+        {
+          "code": "HMUVWX2345",
+          "guest_name": "Louis Bernard",
+          "guests": 1,
+          "issues": [
+            "ステータス不明(計上済み — 実在予約か確認)"
+          ]
+        }
+      ],
+      "kujo": null,
+      "fiscal_180": {
+        "total_days": 12,
+        "fiscal_year_start": "2026-04-01",
+        "sources": [
+          "2026-04_2026-05 (current)"
+        ]
+      }
+    },
+    "M261234567": {
+      "todokede": "M261234567",
+      "todokede_display": "第M261234567号",
+      "name": "鴨川の宿",
+      "municipality": "京都市東山区",
+      "kyoto": true,
+      "juri_date": "2024-11-01",
+      "zero_report": true,
+      "reservation_count": 0,
+      "shukuhaku_nissu": 0,
+      "shukuhakusha_su": 0,
+      "nobe_ninzu": 0,
+      "nationality_counts": {
+        "日本": 0,
+        "韓国": 0,
+        "台湾": 0,
+        "香港": 0,
+        "中国": 0,
+        "タイ": 0,
+        "シンガポール": 0,
+        "マレーシア": 0,
+        "インドネシア": 0,
+        "フィリピン": 0,
+        "ベトナム": 0,
+        "インド": 0,
+        "英国": 0,
+        "ドイツ": 0,
+        "フランス": 0,
+        "イタリア": 0,
+        "スペイン": 0,
+        "ロシア": 0,
+        "米国": 0,
+        "カナダ": 0,
+        "オーストラリア": 0,
+        "その他": 0
+      },
+      "unresolved_count": 0,
+      "occupied_dates": [],
+      "reservations": [],
+      "review_items": [],
+      "kujo": [
+        {
+          "date": "2026-04-18",
+          "time": "21:30",
+          "content": "建物入口の案内灯が眩しいとの近隣からの苦情",
+          "response": "当日中に照度を下げ点灯時間を22時までに短縮した"
+        },
+        {
+          "date": "2026-05-06",
+          "time": "09:15",
+          "content": "ごみ置き場の使い方について近隣から指摘",
+          "response": "清掃を実施し多言語のごみ出し案内掲示を更新した"
+        }
+      ],
+      "fiscal_180": {
+        "total_days": 0,
+        "fiscal_year_start": "2026-04-01",
+        "sources": [
+          "2026-04_2026-05 (current)"
+        ]
+      }
+    }
+  },
+  "validation": {
+    "errors": [],
+    "warnings": [
+      "normalized_reservations.csv 行7 (HMUVWX2345): ステータス不明 — 実在した宿泊なら計上のままでOK、実在しない予約ならこの行の削除が必要です（スキルに「行7を削除して」と伝えてください。現在は計上しています）",
+      "第M131234567号: 2026-04-20〜2026-04-23 の滞在が複数ソースに存在 (airbnb:HMMNOP3456 と booking:4123456789) — 同一予約の二重取り込みの可能性。どちらが正しいか確認し、normalized_reservations.csv から片方の行の削除が必要です（スキルに「HMMNOP3456 と 4123456789 のどちらを残すか」を伝えれば削除してもらえます）",
+      "kujo-log 行2: 2026-03-15 は報告期間外 — 今回の報告には含めません"
+    ],
+    "info": [
+      "第M261234567号: この期間の宿泊実績なし — 0件報告を生成 (0件でも報告義務あり)"
+    ]
+  }
+}

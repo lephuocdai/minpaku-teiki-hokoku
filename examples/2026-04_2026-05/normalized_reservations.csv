@@ -1,0 +1,9 @@
+property_key,listing_name,source,confirmation_code,guest_name,checkin,checkout,adults,children,infants,status,nationalities
+第M131234567号,Asakusa Demo Stay 2BR,airbnb,HMABCD1234,John Miller,2026-03-30,2026-04-02,2,0,0,confirmed,米国;米国
+第M131234567号,Asakusa Demo Stay 2BR,airbnb,HMEFGH5678,佐藤 花子,2026-04-10,2026-04-13,2,1,1,confirmed,日本;日本;日本;日本
+第M131234567号,Asakusa Demo Stay 2BR,airbnb,HMMNOP3456,Chen Wei-Ling,2026-04-20,2026-04-23,2,0,0,confirmed,台湾;台湾
+第M131234567号,Asakusa Demo Stay Annex,airbnb,HMIJKL9012,Kim Minjun,2026-04-21,2026-04-24,3,0,0,confirmed,韓国;韓国;韓国
+第M131234567号,Asakusa Demo Stay 2BR,airbnb,HMQRST7890,Anna Schmidt,2026-05-01,2026-05-04,2,0,0,cancelled,
+第M131234567号,Asakusa Demo Stay Annex,airbnb,HMUVWX2345,Louis Bernard,2026-05-10,2026-05-12,1,0,0,unknown,フランス
+第M131234567号,Asakusa Demo Stay 2BR,airbnb,HMYZAB6789,Emma Clarke,2026-05-30,2026-06-02,2,0,0,confirmed,英国;英国
+第M131234567号,Asakusa Demo Stay 2BR,booking,4123456789,Chen Wei-Ling,2026-04-20,2026-04-23,2,0,0,confirmed,台湾;台湾

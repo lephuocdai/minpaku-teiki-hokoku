@@ -1,0 +1,32 @@
+# minpaku-config.yaml — 設定ファイルの記入例（すべて架空のデータです）
+# スキルの初回オンボーディングがこのファイルを作成します。手で編集しても構いません。
+
+language: ja                       # ja | en — 生成される帳票・ガイドの言語
+operator_name: "民泊 太郎"         # 事業者名（画面には出ません。メモ用）
+csv_variant: sousa-tejunsho        # sousa-tejunsho | denshi-meibo（既定: sousa-tejunsho）
+
+output:
+  portal_csv: true                 # 一括アップロード用CSVを出力する
+  click_guide: true                # Web画面手入力用のクリックガイドを出力する
+  review_xlsx: true                # 届出住宅ごとの確認用Excelを出力する
+
+properties:
+  # 届出番号は 第/号 があってもなくても構いません（例: M131234567 でも可）
+  - todokede_no: "第M131234567号"  # 架空の届出番号（先頭2桁 13 = 東京都）
+    name: "浅草の家"               # オーナーが呼びやすい名前
+    municipality: "東京都台東区"
+    kyoto: false
+    juri_date: "2023-06-15"        # 届出受理日（0件報告の起点になります）
+    listings:
+      # 複数リスティング → 1つの届出番号 の対応付け（多対一が普通です）
+      - { ota: airbnb, account: "sample-airbnb", listing_name: "Asakusa Demo Stay 2BR" }
+      - { ota: airbnb, account: "sample-airbnb", listing_name: "Asakusa Demo Stay Annex" }
+      - { ota: booking, account: "sample-booking", listing_name: "Asakusa Demo Stay 2BR" }
+
+  - todokede_no: "第M261234567号"  # 架空の届出番号（先頭2桁 26 = 京都府）
+    name: "鴨川の宿"
+    municipality: "京都市東山区"
+    kyoto: true                    # 京都市は苦情の件数・日時・内容・対応状況の報告が追加で必要
+    juri_date: "2024-11-01"
+    listings:
+      - { ota: airbnb, account: "sample-airbnb", listing_name: "Kamo River Retreat 1BR" }
