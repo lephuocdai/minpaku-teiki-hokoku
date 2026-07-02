@@ -80,9 +80,9 @@
 
 > ⚠️ **やってはいけないインストール方法**: スキルのフォルダをパソコンの `~/.claude/skills/` にコピーする方法は**Coworkやclaude.aiチャットでは動きません**（Claude Code専用の方法です）。必ず下のいずれかの方法を使ってください。
 
-### 方法0（いちばん簡単・おすすめ）: リポジトリURLを貼るだけ（動作確認中）
+### 方法0（いちばん簡単・おすすめ）: リポジトリURLを貼るだけ（動作確認済み ✅）
 
-> 🧪 **この方法はCoworkでの動作確認中です。** うまくいかない場合は方法Aを使ってください。
+> ✅ **2026年7月、Cowork（macOS）で実際にこの手順が最後まで動作することを確認済みです**（リポジトリ取得 → SKILL.md読み込み → オンボーディング開始）。うまくいかない場合は方法Aを使ってください。
 
 1. Claude デスクトップアプリで Cowork を開き、作業用フォルダ（例: `書類/民泊報告`）を選びます。
 2. 次の1行を貼り付けて送信します:
@@ -192,7 +192,7 @@
 - **Airbnb以外のOTAエクスポートの列構成**は公開資料がなく、完全には検証できていません。未知の形式に出会ったときは、スキルが列の対応づけを提示して**あなたの確認を待ってから**処理します。[ヘッダー行の提供](../../issues/new?template=ota_header_donation.md)にご協力いただけると精度が上がります。
 - **一括アップロードCSVの正確な仕様は、公式マニュアル2冊の間で記述が矛盾しています。** スキルは操作手順書v1.7の形式を既定とし、もう一方の形式も選べますが、**初回は必ず1行だけのテストアップロード**をしてください（行ごとにエラーが返るので安全に試せます）。
 - **京都市以外の自治体の上乗せ条例**は網羅調査していません（千代田区などにも独自の記録義務があります）。必ず[自治体窓口一覧](https://www.mlit.go.jp/kankocho/minpaku/municipality.html)から自分の自治体のルールを確認してください。
-- **方法0（リポジトリURLの取り込み）と方法B（マーケットプレイスURL）のCoworkでの動作**は確認中です。確認が取れ次第このREADMEを更新します。
+- **方法0（リポジトリURLの取り込み）は2026年7月にCowork（macOS）で動作確認済み**です。**方法B（マーケットプレイスURL）**は引き続き確認中です。
 
 ## スクリーンショット
 
@@ -290,7 +290,7 @@ Outsourcing this report to a 行政書士 (administrative scrivener) costs aroun
 
 > ⚠️ **Anti-pattern**: copying the skill folder into `~/.claude/skills/` does **NOT** work in Cowork or claude.ai chat — that path is Claude Code-only. Use one of the paths below.
 
-### Path 0 — Paste the repo URL (simplest, recommended; being verified)
+### Path 0 — Paste the repo URL (simplest, recommended; verified ✅)
 
 > 🧪 **This path is still being verified on Cowork.** If it fails, use Path A.
 
@@ -384,7 +384,7 @@ Built by a Tokyo minpaku operator who runs six notified properties and files thi
   - **Non-Airbnb OTA export schemas** are publicly undocumented; on an unfamiliar format the skill proposes a column mapping and **waits for your confirmation**. [Donating header rows](../../issues/new?template=ota_header_donation.md) hardens the parsers.
   - **The exact bulk-upload CSV serialization conflicts between two official manuals.** The skill defaults to the 操作手順書 v1.7 format (the other is selectable) — **always do a 1-row test upload first**; the portal returns per-row errors, so this is safe.
   - **Municipal add-on ordinances beyond Kyoto** have not been exhaustively surveyed (Chiyoda-ku has extra record duties, others may too) — check your municipality via the [MLIT directory](https://www.mlit.go.jp/kankocho/minpaku/municipality.html).
-  - **Path 0 (repo-URL import) and Path B (marketplace URL) are still being verified on Cowork**; this README will be updated once tested hands-on.
+  - **Path 0 (repo-URL import) was verified end-to-end on Cowork (macOS) in July 2026** — repo fetch, SKILL.md read, onboarding start. **Path B (marketplace URL)** is still being verified.
 
 ## Screenshots
 
